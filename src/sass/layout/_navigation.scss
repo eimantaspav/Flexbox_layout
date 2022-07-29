@@ -1,0 +1,41 @@
+/* navigation */
+@use "../utilities/variables" as *;
+
+.header {
+  background-color: $bg-header;
+  &__container {
+    max-height: 4rem;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  &__logo {
+    max-height: 3rem;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    & + .nav__item {
+      margin-left: 1rem;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  &__button {
+    background-color: #a59678;
+    padding: 0.5em 1em;
+    border-radius: 2rem;
+  }
+}

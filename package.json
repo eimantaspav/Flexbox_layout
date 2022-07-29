@@ -1,0 +1,22 @@
+{
+  "name": "flexbox_layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch src/sass/main.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eimantaspav/Flexbox_layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eimantaspav/Flexbox_layout/issues"
+  },
+  "homepage": "https://github.com/eimantaspav/Flexbox_layout#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
