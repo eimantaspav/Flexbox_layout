@@ -1,0 +1,34 @@
+@use "../utilities/variables" as *;
+
+.hero {
+  background-color: #3b4050;
+
+  &__container {
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 7rem 0;
+  }
+
+  &__right,
+  &__left {
+    width: 40%;
+  }
+
+  &__right {
+    align-self: end;
+  }
+
+  &__title {
+    font-size: 90px;
+    line-height: 90px;
+    color: white;
+  }
+  &__span {
+    color: $color-accent;
+  }
+
+  &__text {
+    color: white;
+    font-size: 24px;
+  }
+}

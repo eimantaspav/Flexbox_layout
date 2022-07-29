@@ -2,7 +2,7 @@
 @use "../utilities/variables" as *;
 
 .header {
-  background-color: $bg-header;
+  background-color: $color-nav;
   &__container {
     max-height: 4rem;
     align-items: center;
@@ -32,10 +32,5 @@
     text-decoration: none;
     color: white;
     font-size: 18px;
-  }
-  &__button {
-    background-color: #a59678;
-    padding: 0.5em 1em;
-    border-radius: 2rem;
   }
 }

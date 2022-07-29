@@ -1,0 +1,18 @@
+@use "../utilities/variables" as *;
+
+.nav__button {
+  background-color: $color-accent;
+  padding: 0.5em 1em;
+  border-radius: 2rem;
+}
+
+.hero__btn {
+  text-transform: uppercase;
+  color: white;
+  background-color: $color-accent;
+  padding: 0.5em 1.4em;
+  border-radius: 2rem;
+  border: 0;
+  margin-top: 0.5rem;
+  font-size: 24px;
+}
