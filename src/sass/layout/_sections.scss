@@ -1,0 +1,53 @@
+@use "../utilities/variables" as *;
+
+/* section-one */
+
+.section-one {
+  background-color: EFEFEF;
+  padding: 7rem 0;
+
+  &__container {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  &__col {
+    width: 25%;
+  }
+}
+
+/* section-two */
+.section-two {
+  padding: 7rem 0;
+
+  &__container {
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  &__left {
+    width: 55%;
+  }
+  &__right {
+    width: 40%;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+  }
+
+  &__col {
+    background-color: $color-primary;
+    padding: 2rem;
+  }
+  &__col + &__col {
+    margin-top: 1rem;
+  }
+  &__image {
+    max-width: 700px;
+    margin: 2rem 0;
+  }
+}
+
+.section-two__text {
+  max-width: 700px;
+}
