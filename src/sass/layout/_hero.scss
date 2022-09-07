@@ -1,20 +1,37 @@
 @use "../utilities/variables" as *;
 
 .hero {
-  background-color: #3b4050;
+  background-color: $color-primary;
 
   &__container {
     margin: 0 auto;
     justify-content: space-between;
     padding: 5rem 0;
+
+    @media screen and (max-width: 49.87rem) {
+      // 798px
+      padding: 2rem 0;
+      width: 70%;
+      gap: 1rem;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__right {
+    align-self: end;
   }
 
   &__right,
   &__left {
     width: 40%;
-  }
 
-  &__right {
-    align-self: end;
+    @media screen and (max-width: 49.87rem) {
+      // 798px
+      align-self: center;
+      width: 90%;
+    }
   }
 }

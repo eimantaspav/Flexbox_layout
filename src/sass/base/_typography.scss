@@ -20,8 +20,15 @@
 .hero {
   &__title {
     font-size: 5.625rem; // 90px
-    line-height: 5.625rem;
     color: white;
+    @media screen and (max-width: 93.56em) {
+      // 1497px
+      font-size: 4rem;
+    }
+    @media screen and (max-width: 71.43em) {
+      // 1143px
+      font-size: 3rem;
+    }
   }
   &__span {
     color: $color-accent;
@@ -30,6 +37,10 @@
   &__text {
     color: white;
     font-size: 1.5rem; // 24px
+    @media screen and (max-width: 49.87rem) {
+      // 798px
+      margin-bottom: 1rem;
+    }
   }
 }
 

@@ -63,6 +63,15 @@ select {
 }
 
 .container {
-  width: 80%;
+  width: 65%;
   display: flex;
+
+  @media screen and (max-width: 93.56em) {
+    // 1497px
+    width: 75%;
+  }
+  @media screen and (max-width: 71.43em) {
+    // 1143px
+    width: 85%;
+  }
 }
