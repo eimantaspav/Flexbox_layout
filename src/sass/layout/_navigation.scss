@@ -17,9 +17,6 @@
 .nav {
   &__list {
     display: flex;
-    list-style: none;
-    color: white;
-    text-transform: uppercase;
   }
   &__item {
     display: flex;
@@ -27,10 +24,5 @@
     & + .nav__item {
       margin-left: 1rem;
     }
-  }
-  &__link {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
   }
 }

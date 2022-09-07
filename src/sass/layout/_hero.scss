@@ -6,7 +6,7 @@
   &__container {
     margin: 0 auto;
     justify-content: space-between;
-    padding: 7rem 0;
+    padding: 5rem 0;
   }
 
   &__right,
@@ -16,19 +16,5 @@
 
   &__right {
     align-self: end;
-  }
-
-  &__title {
-    font-size: 90px;
-    line-height: 90px;
-    color: white;
-  }
-  &__span {
-    color: $color-accent;
-  }
-
-  &__text {
-    color: white;
-    font-size: 24px;
   }
 }

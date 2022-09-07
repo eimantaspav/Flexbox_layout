@@ -1,11 +1,55 @@
+@use "../utilities/variables" as *;
+
+// Navigation
+.nav {
+  &__list {
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+  }
+}
+
+// Hero section
+
+.hero {
+  &__title {
+    font-size: 5.625rem; // 90px
+    line-height: 5.625rem;
+    color: white;
+  }
+  &__span {
+    color: $color-accent;
+  }
+
+  &__text {
+    color: white;
+    font-size: 1.5rem; // 24px
+  }
+}
+
+// Section-one + section-two
+
+.section-two {
+  &__right {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
 .col__title {
   color: #a59678;
-  font-size: 30px;
+  font-size: 1.875rem; // 30px
   margin-bottom: 0.4em;
 }
 
 .section-two__title {
-  font-size: 36px;
+  font-size: 2rem; // 36 px
   color: #a59678;
   margin-bottom: 0.5em;
 }
